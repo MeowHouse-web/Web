@@ -32,12 +32,18 @@ footer a {
     text-decoration: none;
 }
 
-section {
-    width: 100%;
+p {
+    margin: 0;
+    font-size: x-small;
 }
 
-p {
-    margin: 0.2em;
+section {
+    margin-bottom: 2em;
+}
+
+section header {
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
@@ -47,6 +53,13 @@ h1 {
 h4 {
     margin: 0 0 3em 0;
     border-top: 0.1em solid #f0f0f0;
+}
+
+h5 {
+    margin: 0.5em auto;
+    padding: 0 0 0.5em 0;
+
+    font-size: large;
 }
 
 .tiles {
@@ -60,6 +73,8 @@ h4 {
 	-ms-flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 
+    align-items: center;
+    justify-content: center;
     border-top: 0 !important;
     margin-left: auto;
     margin-right: auto;
@@ -88,14 +103,15 @@ h4 {
     position: relative;
     overflow: hidden;
 
-    height: 30vh;
-    min-height: 12em;
-    max-height: 20em;
-    width: 40vw;
-    min-width: 5em;
-    max-width: 10em;
-    padding: 1em;
-    margin: auto;
+    width: 15vw;
+    min-width: 6em;
+    max-width: 8em;
+    height: auto;
+    padding: 0.25em;
+    margin: 0.2em;
+
+    border: 0.075em solid #f0f0f0;
+    border-radius: 0.4em;
 }
 
 div.icon img{
